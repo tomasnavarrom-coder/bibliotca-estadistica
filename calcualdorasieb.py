@@ -5,7 +5,7 @@ def media(datos):
   return suma/len(datos)
 
 def de(datos):
-  m = media(Datos)
+  m = media(datos)
   suma_cuadrados = 0
   for x in datos:
     suma_cuadrados = suma_cuadrados + (x - m)**2
