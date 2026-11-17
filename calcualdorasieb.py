@@ -9,4 +9,4 @@ def de(datos):
   suma_cuadrados = 0
   for x in datos:
     suma_cuadrados = suma_cuadrados + (x - m)**2
-  return (suma_cuadrados/len(datos)**0.5)
+  return (suma_cuadrados/len(datos))**0.5
